@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context="com.journaldev.retrofitintro.MainActivity">
+
+    <TextView
+        android:id="@+id/responseText"
+        android:layout_width="339dp"
+        android:layout_height="81dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="185dp"
+        android:gravity="center"
+        android:text="Nie podano miasta!!"
+        android:textColor="@color/letters"
+        android:textSize="24dp" />
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gif"
+        android:layout_width="match_parent"
+        android:layout_height="285dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button"
+        android:gravity="center"
+        android:textColor="@color/letters"
+        android:textSize="50dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:text="Szukaj!"
+        android:textColor="#F3B61F" />
+
+    <EditText
+        android:id="@+id/cityPlain"
+        android:layout_width="346dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Podaj miasto..."
+        android:inputType="textPersonName"
+        android:shadowColor="#F3B61F"
+        android:soundEffectsEnabled="false"
+        android:textColor="#F3B61F"
+        android:textColorHighlight="#F3B61F"
+        android:textColorLink="#F3B61F" />
+
+
+</RelativeLayout>
